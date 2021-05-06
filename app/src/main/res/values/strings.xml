@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">electronicShop</string>
+    <string name="electronic_shop">Electronic Shop</string>
+    <string name="get_started">Get Started</string>
+    <string name="todoa">TODOa</string>
+    <string name="create_user_account">Create User Account</string>
+    <string name="textview">TextView</string>
+    <string name="menu_title">SignOut</string>
+    <string name="cs">Continue Shopping</string>
+    <string name="signout">Signout</string>
+    <string name="contshop">Continue Shopping</string>
+</resources>

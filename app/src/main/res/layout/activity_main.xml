@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundes"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/shoplogo"
+        android:layout_width="327dp"
+        android:layout_height="258dp"
+
+        android:src="@drawable/shoplogo"
+        android:contentDescription="@string/todoa" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="6dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:fontFamily="@font/henny_penny"
+
+                android:gravity="center"
+                android:text="@string/electronic_shop"
+                android:textColor="@color/black"
+                android:textSize="32sp"
+                android:textStyle="italic" />
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/startbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="@string/get_started"
+        android:textSize="15sp" />
+</LinearLayout>
