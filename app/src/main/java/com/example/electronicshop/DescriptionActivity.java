@@ -36,6 +36,7 @@ public class DescriptionActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(DescriptionActivity.this,fillYourDetails.class));
+                finish();
             }
         });
     }

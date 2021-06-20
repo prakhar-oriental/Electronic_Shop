@@ -93,4 +93,15 @@ CollectionReference collectionReference = db.collection("User");
             }
         });
     }
+
+    @Override
+    protected void onStart() {
+        if(firebaseAuth.getCurrentUser()!=null)
+        {
+            startActivity(new Intent(createuserAccount.this,RecylerView.class));
+            finish();
+        }
+
+        super.onStart();
+    }
 }

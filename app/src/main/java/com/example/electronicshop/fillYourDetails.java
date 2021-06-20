@@ -63,6 +63,7 @@ CollectionReference collectionReference = db.collection("Orderdetail");
                                 public void onComplete(@NonNull Task<DocumentReference> task) {
                                     if (task.isSuccessful()) {
                                         startActivity(new Intent(new Intent(fillYourDetails.this, PlaceOrder.class)));
+                                        finish();
                                     }
 
                                 }
